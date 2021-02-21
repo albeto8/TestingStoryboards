@@ -7,6 +7,8 @@ final class StoryBoardViewControllerTests: XCTestCase {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let sut: StoryBoardViewController = sb.instantiateViewController(identifier: String(describing: StoryBoardViewController.self))
         
+        sut.loadViewIfNeeded()
+        
         XCTAssertEqual(sut.titleLabel.text, "Test")
     }
 }
