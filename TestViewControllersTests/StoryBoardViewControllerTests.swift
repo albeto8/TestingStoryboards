@@ -3,7 +3,7 @@ import XCTest
 
 final class StoryBoardViewControllerTests: XCTestCase {
 
-    func test_load_storyboardViewController() throws {
+    func test_load_storyboardViewController() {
         
     }
 }
