@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20BAE1E25EC4BAA007A2F94 /* XIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20BAE1C25EC4BAA007A2F94 /* XIBViewController.swift */; };
+		F20BAE1F25EC4BAA007A2F94 /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20BAE1D25EC4BAA007A2F94 /* XIBViewController.xib */; };
 		F2D5A88D25E2F29000260797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5A88C25E2F29000260797 /* AppDelegate.swift */; };
 		F2D5A88F25E2F29000260797 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5A88E25E2F29000260797 /* SceneDelegate.swift */; };
 		F2D5A89125E2F29000260797 /* StoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5A89025E2F29000260797 /* StoryBoardViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20BAE1C25EC4BAA007A2F94 /* XIBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBViewController.swift; sourceTree = "<group>"; };
+		F20BAE1D25EC4BAA007A2F94 /* XIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
 		F2D5A88925E2F29000260797 /* TestViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D5A88C25E2F29000260797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D5A88E25E2F29000260797 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				F2D5A89525E2F29100260797 /* Assets.xcassets */,
 				F2D5A89725E2F29100260797 /* LaunchScreen.storyboard */,
 				F2D5A89A25E2F29100260797 /* Info.plist */,
+				F20BAE1C25EC4BAA007A2F94 /* XIBViewController.swift */,
+				F20BAE1D25EC4BAA007A2F94 /* XIBViewController.xib */,
 			);
 			path = TestViewControllers;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20BAE1F25EC4BAA007A2F94 /* XIBViewController.xib in Resources */,
 				F2D5A89925E2F29100260797 /* LaunchScreen.storyboard in Resources */,
 				F2D5A89625E2F29100260797 /* Assets.xcassets in Resources */,
 				F2D5A89425E2F29000260797 /* Main.storyboard in Resources */,
@@ -199,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20BAE1E25EC4BAA007A2F94 /* XIBViewController.swift in Sources */,
 				F2D5A89125E2F29000260797 /* StoryBoardViewController.swift in Sources */,
 				F2D5A88D25E2F29000260797 /* AppDelegate.swift in Sources */,
 				F2D5A88F25E2F29000260797 /* SceneDelegate.swift in Sources */,
